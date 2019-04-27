@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="renderer" content="webkit|ie-comp|ie-stand" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+	<title>宋老师</title>
+	<!--插件:static文件夹-->
+	<link rel="stylesheet" href="../../assets/static/bootstrap-3.3.7/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="../../assets/static/swiper-4.3.3/swiper.min.css" />
+	<!--自定义样式表-->
+	<link rel="stylesheet" href="../../assets/css/common.css" /> <!--公共样式表-->
+	<link rel="stylesheet" href="../../assets/css/index.css" /> <!--本页样式表-->
+</head>
+<body>
+    <!-- 头部导航栏start-->
+    <div id="header"></div>
+    <!-- 头部导航栏end-->	
+    
+
+    <!-- 页尾start-->
+    <!--<div id="footer"></div>-->
+    <!-- 页尾end-->	
+    
+    
+    <style>
+    	.common-header .list-nav li.nav-home > a {color: #6dc5a3;}
+    </style>
+    <!--插件：static文件夹-->
+	<script src="../../assets/static/jquery-2.1.4/jquery.min.js"></script>
+	<script src="../../assets/static/bootstrap-3.3.7/js/bootstrap.js"></script>
+	<script src="../../assets/static/swiper-4.3.3/swiper.min.js"></script>
+	<!--自定义js-->
+	<script src="../../assets/js/common.js"></script> <!--公共js部分-->
+	<script src="../../assets/js/index.js"></script>	 <!--本页js-->
+	
+	<script>
+		var swiper = new Swiper('.swiper-container1', {
+	      	slidesPerView: 4,
+	      	spaceBetween: 30,
+	      	loop: true,
+	      	loopFillGroupWithBlank: true,
+	      	pagination: {
+	        	el: '.swiper-pagination',
+	        	clickable: true,
+	      	},
+	      	navigation: {
+	        	nextEl: '.swiper-button-next',
+	        	prevEl: '.swiper-button-prev',
+	      	},
+	   });
+		var swiper = new Swiper('.swiper-container2', {
+	      	slidesPerView: 3,
+	      	spaceBetween: 30,
+	      	loop: true,
+	      	loopFillGroupWithBlank: true,
+	      	pagination: {
+	        	el: '.swiper-pagination',
+	        	clickable: true,
+	      	},
+	      	navigation: {
+	        	nextEl: '.swiper-button-next',
+	        	prevEl: '.swiper-button-prev',
+	      	},
+	    });
+	</script>
+</body>
+</html>

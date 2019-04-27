@@ -1,0 +1,4 @@
+assets：css,js和图片文件
+static：插件
+template：模板文件
+首页--webHome/index
