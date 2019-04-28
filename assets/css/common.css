@@ -219,6 +219,12 @@ label {margin-bottom: 0;font-weight: 500;}
 	max-height: 56px;
 	vertical-align: middle;
 }
+@media (max-width: 768px){
+	.common-top .top-tel img {
+	    width: 119px;
+	    /*height: 30px;*/
+	}	
+}
 .common-top .top-op {
 	float: right;
 }
