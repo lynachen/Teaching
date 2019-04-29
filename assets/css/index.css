@@ -1,7 +1,104 @@
+/*---- banner ----*/
 .swiper-banner .swiper-wrapper .swiper-slide {
 	width: 100%;
 	height: 500px;
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: cover;
+}
+.main-bg .tlt {
+	text-align: center;
+	margin-top: 70px;
+	margin-bottom: 38px;
+}
+.main-bg .tlt .cn {
+	font-size: 30px;
+	color: #323232;
+}
+.main-bg .tlt .en {
+	font-size: 20px;
+	color: #b2b2b2;
+	margin-top: 10px;
+}
+/*---- 在线课堂 ----*/
+.list-course {margin-bottom: 10px;}
+.list-course li {
+	width: 23.5%;
+	margin-right: 20px;
+	margin-bottom: 60px;
+	padding: 8px;
+	-webkit-transition: all .3s ease 0s;
+	-moz-transition: all .3s ease 0s;
+	-ms-transition: all .3s ease 0s;
+	-o-transition: all .3s ease 0s;
+	transition: all .3s ease 0s;
+}
+.list-course li:hover {
+	background-color: #fff;
+	box-shadow: 0 0 9px 1px #ccc;
+}
+.list-course li:nth-child(4n) {
+	margin-right: 0;
+}
+.list-course li > a {
+	display: inline-block;
+	width: 100%;
+	height: 00%;
+}
+.list-course li .t-img {
+	width: 100%;
+	height: 170px;
+	overflow: hidden;
+}
+.list-course li .t-img img {
+	width: 100%;
+	height: 100%;
+	-webkit-transition: all .3s ease 0s;
+	-moz-transition: all .3s ease 0s;
+	-ms-transition: all .3s ease 0s;
+	-o-transition: all .3s ease 0s;
+	transition: all .3s ease 0s;
+}
+.list-course li:hover .t-img img {
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.list-course li .b-txt {
+	margin-top: 16px;
+}
+.list-course li .b-txt .bt {
+	font-size: 16px;
+	color:#333;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.list-course li .b-txt .bt a {
+	display: inline-block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;	
+}
+.list-course li:hover .b-txt .bt,
+.list-course li:hover .b-txt .bt a {color: #81bd05;}
+.list-course li .b-txt .bc {
+	font-size: 14px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;		
+}
+.list-course li .b-txt .bb {
+	font-size: 14px;
+}
+.list-course li .b-txt .bb .sum {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 700;
+    color: #ce4141;
+    padding-right: 4px;
 }
