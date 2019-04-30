@@ -79,13 +79,15 @@
 	-o-transform: scale(1.1);
 	transform: scale(1.1);
 }
+.list-course li .course-txt {
+	padding: 14px 14px 18px;
+}
 .list-course li .course-txt .course-tlt {
 	font-size: 16px;
 	color:#333;
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
-	margin-top: 16px;
 	margin-bottom: 10px;
 }
 .list-course li .course-txt .course-tlt a {
