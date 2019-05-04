@@ -61,7 +61,13 @@
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-color: rgba(0,0,0,.33);
+	background: rgba(0,0,0,.33) url(../../assets/image/index/play.png) no-repeat center;
+	background-size: 58px;
+	display: none;
+}
+.list-course li:hover .course-img .img-mask {
+	display: block;
+	z-index: 2;
 }
 .list-course li .course-img img {
 	width: 100%;
@@ -127,3 +133,156 @@
 	font-size: 14px;
 	color: #8f8f8f;
 }
+/*---- 学生作品 ----*/ 
+.bg2 {
+	width: 100%;
+	height: 674px;
+	background-color: #ececec;
+	position: relative;
+}
+.bg2 .bg-cloud {
+	position: absolute;	
+	width: 100%;
+	height: 100%;
+	background: url(../image/index/cloud_top.png) no-repeat top right,
+				url(../image/index/cloud_bottom.png) no-repeat bottom left;
+	background-size: 484px 260px,419px 258px;	
+	z-index: 1;
+}
+.bg2 .container {
+	padding: 0 10%;
+}
+.con-works {
+	position: relative;
+}
+.con-works .swiper-button-next {
+	background-image:url(../image/index/arrow_right.png);
+	background-size: 25px 44px;
+}
+.con-works .swiper-button-prev {
+	background-image:url(../image/index/arrow_left.png);
+	background-size: 25px 44px;
+}
+.swiper-works {
+	padding: 0 3%;
+}
+.swiper-works .swiper-wrapper .swiper-slide {
+	/*width: 100%;*/
+	height: 336px;
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+    text-align: center;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+	transition: 300ms;
+	position: relative;
+}
+.swiper-works .swiper-wrapper .swiper-slide:not(.swiper-slide-active){
+    transform: scale(0.8);
+}
+.swiper-works .swiper-wrapper .swiper-slide .bot-mask {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	font-size: 14px;
+	color: #fff;
+	background-color: rgba(0,0,0,.3);
+	padding: 4px;
+}
+/*---- 获奖证书 ----*/
+.list-wall {
+	font-size: 0;
+}
+.list-wall li {
+	font-size: 12px;
+	position: relative;
+	width: 24%;
+	height: 176px;
+	margin-right: 1.3%;
+	margin-bottom: 60px;
+	-webkit-transition: all .3s ease 0s;
+	-moz-transition: all .3s ease 0s;
+	-ms-transition: all .3s ease 0s;
+	-o-transition: all .3s ease 0s;
+	transition: all .3s ease 0s;
+	border-radius: 8px;
+	background-color: #fff7eb;
+	cursor: pointer;
+}
+.list-wall li:nth-child(4n) {margin-right: 0;}
+.list-wall li:hover {
+	background-color: #fff;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,.1);
+}
+.list-wall li .img {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.list-wall li .img img {
+	position: absolute;
+	top: 50%;	
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-o-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+	max-height: 100%;
+	max-width: 100%;
+}
+.list-wall li .img-mask {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.6);
+	top: 0;
+	left: 0;
+	text-align: center;
+	color: #fff;
+	display: none;
+}
+.list-wall li .img-mask .mask-inner {
+	position: absolute;
+	width: 90%;
+	left: 5%;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+.list-wall li .img-mask .mask-inner .p-tlt {
+	font-weight: 700;
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+.list-wall li:hover .img-mask {
+	display: block;
+}
+/*---- 校区地址 ----*/
+.bg4 {
+	margin-bottom: 50px;
+}
+#allmap {width:100%;height:400px;}
+@media (max-width: 768px){
+	#allmap {
+		height: 200px;
+	}
+}
+ .BMap_pop {
+ 	top: 50px !important;
+ }

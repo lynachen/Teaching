@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="renderer" content="webkit|ie-comp|ie-stand" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+	<title>宋老师</title>
+	<!--插件:static文件夹-->
+	<link rel="stylesheet" href="../../assets/static/bootstrap-3.3.7/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="../../assets/static/ydui-0.1.3/css/ydui.css" />
+	<link rel="stylesheet" href="../../assets/static/swiper-4.3.3/swiper.min.css" />
+	<!--自定义样式表-->
+	<link rel="stylesheet" href="../../assets/css/common.css" /> <!--公共样式表-->
+	<link rel="stylesheet" href="../../assets/css/register.css" /> <!--本页样式表-->
+</head>
+<body>
+    <!-- 头部导航栏start-->
+    <div class="reg-header">
+    	<div class="container">
+    		<div class="reg-header-left">
+				<a href="/"><img src="../../assets/image/common/logo.png" alt="网站logo" /></a>
+			</div>
+			<div class="reg-header-right">
+				<span>已有账号，<a href="../Login/login.html" class="btn-log">马上登录</a></span>
+				<span class="back-home"><a href="/">返回首页</a></span>
+			</div>
+    	</div>
+    </div>
+    <!-- 头部导航栏end-->	
+	<!--内容区域 start-->
+	<div class="main-wrapper">
+		<div class="main-bg">
+			<div class="container">
+				<div class="reg-tlt">用户注册</div>
+				<div class="reg-con">
+					<form id="form">
+						<ul class="list-unstyled list-reg">
+							<li class="li-mobile">
+								<input type="text" class="mobile" name="mobile" id="mobile" maxlength="11" placeholder="手机号" autocomplete="off" />
+							</li>
+							<li class="li-code">
+								<input type="text" class="smscode" name="smscode" id="smscode" placeholder="验证码" autocomplete="off" />
+								<a class="btn btn-code" id="J_GetCode">发送验证码</a>
+							</li>
+							<li class="li-uname">
+								<input type="text" class="uname" name="uname" id="uname" placeholder="昵称" autocomplete="off" />
+							</li>							
+							<li class="li-psd">
+								<input type="password" class="psd" name="psd" id="psd" placeholder="6-20位密码，字母/数字/符号至少两种" autocomplete="off" />
+							</li>
+							<li class="li-psd">
+								<input type="password" class="psd" name="psd" id="repsd" placeholder="确认密码" autocomplete="off" />
+							</li>
+							<li class="li-tab">
+								<span>
+									<input type="checkbox" checked />
+									<i>我已阅读并接受<a href="">用户协议</a></i>
+								</span>
+							</li>
+							<li class="li-btn">
+								<button type="button" class="btn" onclick="sendSubmit()">立即注册</button>
+							</li>
+						</ul>
+					</form>
+				</div>
+			</div>
+			<div class="reg-bot">©2016-2017 武汉乐问科技有限公司 版权所有 鄂ICP备16018730号-1 | 版权声明</div>
+		</div>		
+	</div>
+	<!--内容区域 end -->  	
+    
+    <!-- 页尾 start-->
+    <!--<div id="footer"></div>-->
+    <!-- 页尾 end-->	
+    
+    <!--插件：static文件夹-->
+	<script src="../../assets/static/jquery-2.1.4/jquery.min.js"></script>
+	<script src="../../assets/static/bootstrap-3.3.7/js/bootstrap.js"></script>
+	<script src="../../assets/static/ydui-0.1.3/js/ydui.js"></script>
+	<!--自定义js-->
+	<script src="../../assets/js/common.js"></script> <!--公共js部分-->
+	<script src="../../assets/js/register.js"></script>	 <!--本页js-->
+</body>
+</html>
