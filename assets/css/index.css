@@ -6,6 +6,11 @@
 	background-position: top center;
 	background-size: cover;
 }
+@media (max-width: 768px){
+	.swiper-banner .swiper-wrapper .swiper-slide {
+	    height: 300px;
+	}	
+}
 .main-bg .tlt {
 	text-align: center;
 	margin-top: 70px;
@@ -42,6 +47,19 @@
 }
 .list-course li:nth-child(4n) {
 	margin-right: 0;
+}
+@media (max-width: 768px){
+	.list-course {
+		margin-left: 2%;
+		margin-right: 2%;
+	}
+	.list-course li {
+	    width: 48%;
+	    margin-right: 0;
+	}
+	.list-course li:nth-child(odd){
+		margin-right: 4%;
+	}	
 }
 .list-course li > a {
 	display: inline-block;
@@ -136,9 +154,10 @@
 /*---- 学生作品 ----*/ 
 .bg2 {
 	width: 100%;
-	height: 674px;
+	/*height: 674px;*/
 	background-color: #ececec;
 	position: relative;
+	padding: 20px;
 }
 .bg2 .bg-cloud {
 	position: absolute;	
@@ -201,6 +220,17 @@
 	background-color: rgba(0,0,0,.3);
 	padding: 4px;
 }
+@media (max-width: 768px){
+	.bg2 {
+		/*height: 337px;*/
+	}	
+	.bg2 .bg-cloud {
+		background-size: 242px 130px,209.5px 129px;	
+	}
+	.swiper-works .swiper-wrapper .swiper-slide {
+		height: 168px;
+	}
+}
 /*---- 获奖证书 ----*/
 .list-wall {
 	font-size: 0;
@@ -222,6 +252,19 @@
 	cursor: pointer;
 }
 .list-wall li:nth-child(4n) {margin-right: 0;}
+@media (max-width: 768px){
+	.list-wall {
+		margin-left: 2%;
+		margin-right: 2%;
+	}
+	.list-wall li {
+	    width: 48%;
+	    margin-right: 0;
+	}
+	.list-wall li:nth-child(odd){
+		margin-right: 4%;
+	}	
+}
 .list-wall li:hover {
 	background-color: #fff;
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,.1);
