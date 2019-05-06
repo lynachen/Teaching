@@ -75,8 +75,8 @@ body {
 .log-con .list-log .li-tab .tab-reg {
 	float: right;
 	font-size: 14px;
-	color: #d01212;
 }
+.log-con .list-log .li-tab .tab-reg a {color: #d01212;}
 .log-con .list-log .li-btn .btn {
     display: inline-block;
     width: 100%;
