@@ -288,7 +288,7 @@ label {margin-bottom: 0;font-weight: 500;}
 	background-color: #fff;
 	box-shadow: 0 5px 5px rgba(0,0,0,.06);	
 }
-
+.navbar {margin-bottom: 0;}
 .common-nav.fixed {
 	position: fixed;
 	top: 56px;
