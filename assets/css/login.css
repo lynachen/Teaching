@@ -3,14 +3,14 @@ body {
 	background-color: #ececec;
 }
 /*内容部分*/
-.log-logo {
+.main-logo {
 	width: 136px;
 	height: 108px;
 	background: url(../../assets/image/login/logo.png) no-repeat top center;
 	background-size: contain;
 	margin: 50px auto 30px;
 }
-.log-con {
+.main-con {
 	width: 50%;
 	margin: 0 auto;
 	padding:4% 6%;
@@ -19,11 +19,11 @@ body {
 	margin-bottom: 50px;
 }
 @media (max-width: 768px){
-	.log-con {
+	.main-con {
 		width: 80%;
 	}
 }
-.log-con .tlt {
+.main-con .tlt {
 	font-size: 24px;
 	color: #323232;
 	padding-bottom: 4%;
@@ -32,12 +32,12 @@ body {
 	letter-spacing: 2px;
 	margin-bottom: 8%;
 }
-.log-con .list-log li {
+.main-con .list-log li {
 	position: relative;
 	margin-bottom: 32px;
 }
-.log-con .list-log li input[type="text"],
-.log-con .list-log li input[type="password"] {
+.main-con .list-log li input[type="text"],
+.main-con .list-log li input[type="password"] {
 	width: 100%;
 	height: 46px;
 	padding: 0 3%;
@@ -45,21 +45,21 @@ body {
 	border-radius: 4px;
 	border: solid 1px #dddddd;
 }
-.log-con .list-log li input:focus {
+.main-con .list-log li input:focus {
 	border-color: #e2c99a;
 	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(228, 203, 155, .4);
 	-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(228, 203, 155, .4);
 	box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(228, 203, 155, .4);
 }
-.log-con .list-log .li-tab {margin-bottom: 15px;}
-.log-con .list-log .li-tab .tab-log {
+.main-con .list-log .li-tab {margin-bottom: 15px;}
+.main-con .list-log .li-tab .tab-log {
 	font-size: 14px;
 }
-.log-con .list-log .li-tab .tab-log input[type="checkbox"] {
+.main-con .list-log .li-tab .tab-log input[type="checkbox"] {
 	margin:0;
 	vertical-align: middle;
 }
-.log-con .list-log .li-tab .tab-log input[type="checkbox"]:checked {
+.main-con .list-log .li-tab .tab-log input[type="checkbox"]:checked {
 	background:url(../../assets/image/common/checked.png) no-repeat center;
 	background-size: 21px;
 	border:none;
@@ -67,17 +67,17 @@ body {
 	-moz-box-shadow: none;
 	box-shadow: none;
 }
-.log-con .list-log .li-tab .tab-log i {
+.main-con .list-log .li-tab .tab-log i {
 	vertical-align: middle;
 	padding-left: 4px;
 	color: #323232;
 }
-.log-con .list-log .li-tab .tab-reg {
+.main-con .list-log .li-tab .tab-reg {
 	float: right;
 	font-size: 14px;
 }
-.log-con .list-log .li-tab .tab-reg a {color: #d01212;}
-.log-con .list-log .li-btn .btn {
+.main-con .list-log .li-tab .tab-reg a {color: #d01212;}
+.main-con .list-log .li-btn .btn {
     display: inline-block;
     width: 100%;
     height: 50px;
@@ -88,8 +88,8 @@ body {
     color: #fff;
     letter-spacing: 2px;
 }
-.log-con .list-log .li-btn .btn:hover {background-color: rgba(208, 18, 18, .8);}
-.log-con .list-log .li-reg {
+.main-con .list-log .li-btn .btn:hover {background-color: rgba(208, 18, 18, .8);}
+.main-con .list-log .li-reg {
 	text-align: center;
 	font-size: 14px;
 	margin-bottom: 0;
@@ -103,10 +103,10 @@ body {
 	margin-bottom: 90px;
 }
 /*提示信息*/
-.log-con .list-log li .msg {    
+.main-con .list-log li .msg {    
     position: absolute;
     top: 50px;
     left: 3%;
 }
-.log-con .list-log li .msg.onError {color: #d01212;}
-.log-con .list-log li .msg.onSuccess {color: transparent;}
+.main-con .list-log li .msg.onError {color: #d01212;}
+.main-con .list-log li .msg.onSuccess {color: transparent;}

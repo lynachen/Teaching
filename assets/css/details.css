@@ -1,0 +1,74 @@
+body {background-color: #f4f4f4;}
+.breadcrumb {
+    padding: 0;
+    margin: 30px 0;
+    list-style: none;
+    background-color: transparent;
+    border-radius: 0;
+    font-size: 14px;	
+}
+.breadcrumb>li+li:before {
+	color: #323232;
+	content: ">";
+}
+.breadcrumb>li a {
+	color: #323232;
+}
+.breadcrumb>li a:hover {
+	text-decoration: underline;
+}
+.breadcrumb>.active {
+	/*color: #323232;*/
+}
+/*标题*/
+.main-tlt {
+	font-size: 30px;
+	color: #323232;
+}
+.course-main {
+	font-size: 0;
+}
+.course-main .course-main-left {
+	display: inline-block;
+	width: 56%;
+	margin-right: 4%;
+	vertical-align: top;
+	font-size: 12px;
+}
+.course-main .course-main-right {
+	display: inline-block;
+	width: 40%;
+	vertical-align: top;
+	font-size: 12px;
+}
+.course-img {
+	width: 100%;
+}
+.course-img img {
+	max-width: 100%;
+}
+.course-info,
+.lecturer-info {
+	background-color: #fff;
+	border: 1px solid #d9d9d9;
+}
+.course-info .price span {
+	font-size: 20px;
+	color: #d01212;;
+}
+.course-info .price i {
+	display: inline-block;
+	padding: 4px 6px;
+	background-color: #d01212;
+	color: #fff;
+}
+.lecturer-info .tlt {
+	padding: 10px;
+	border-bottom: 1px solid #d9d9d9;
+}
+.lecturer-info .con .name .portrait {
+	
+}
+.lecturer-info .con p {
+	
+}

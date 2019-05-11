@@ -11,16 +11,16 @@
 	    height: 200px;
 	}	
 }
-.main-bg .tlt {
+.main-bg .main-tlt {
 	text-align: center;
 	margin-top: 70px;
 	margin-bottom: 38px;
 }
-.main-bg .tlt .cn {
+.main-bg .main-tlt .cn {
 	font-size: 30px;
 	color: #323232;
 }
-.main-bg .tlt .en {
+.main-bg .main-tlt .en {
 	font-size: 20px;
 	color: #b2b2b2;
 	margin-top: 10px;

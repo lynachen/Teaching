@@ -56,40 +56,40 @@ body {background-color: #ececec;}
 .main-bg .container {
 	background-color: #fff;
 }
-.reg-tlt {
+.main-tlt {
 	font-size: 24px;
 	color: #fff;
 	padding: 16px;
 	background-color: #323232;
 	text-align: center;
 }
-.reg-con {
+.main-con {
 	width: 50%;
 	margin: 0 auto;
 	padding:4% 6% 0;
 }
 @media (max-width: 768px){
-	.reg-con {
+	.main-con {
 		width: 80%;
 	}
 }
-.reg-con .list-reg li {
+.main-con .list-reg li {
 	position: relative;
 	margin-bottom: 32px;
 }
-.reg-con .list-reg li label {
+.main-con .list-reg li label {
     width: 15%;
     text-align: right;
     margin-right: 40px;
     font-size: 16px;
     letter-spacing: 2px;
 }
-.reg-con .list-reg li label > span {
+.main-con .list-reg li label > span {
 	color: #f80000;
 	padding-right: 2px;
 }
-.reg-con .list-reg li input[type="text"],
-.reg-con .list-reg li input[type="password"] {
+.main-con .list-reg li input[type="text"],
+.main-con .list-reg li input[type="password"] {
 	width: 100%;
 	height: 46px;
 	padding: 0 3%;
@@ -97,10 +97,10 @@ body {background-color: #ececec;}
 	border-radius: 4px;
 	border: solid 1px #dddddd;
 }
-.reg-con .list-reg li.li-code input[type="text"] {
+.main-con .list-reg li.li-code input[type="text"] {
 	width: 52%;
 }
-.reg-con .list-reg li.li-code .btn-code {
+.main-con .list-reg li.li-code .btn-code {
     position: absolute;
     right: 0;
     height: 46px;
@@ -118,20 +118,20 @@ body {background-color: #ececec;}
 	pointer-events: none;
 	background-color: rgba(208, 18, 18, .8);
 }
-.reg-con .list-reg li input:focus {
+.main-con .list-reg li input:focus {
 	border-color: #e2c99a;
 	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(228, 203, 155, .4);
 	-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(228, 203, 155, .4);
 	box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(228, 203, 155, .4);
 }
-.reg-con .list-reg .li-tab span {
+.main-con .list-reg .li-tab span {
 	
 }
-.reg-con .list-reg .li-tab span input[type="checkbox"] {
+.main-con .list-reg .li-tab span input[type="checkbox"] {
 	margin:0;
 	vertical-align: middle;
 }
-.reg-con .list-reg .li-tab span input[type="checkbox"]:checked {
+.main-con .list-reg .li-tab span input[type="checkbox"]:checked {
 	background:url(../../assets/image/common/checked.png) no-repeat center;
 	background-size: 21px;
 	border:none;
@@ -139,17 +139,17 @@ body {background-color: #ececec;}
 	-moz-box-shadow: none;
 	box-shadow: none;
 }
-.reg-con .list-reg .li-tab span i {
+.main-con .list-reg .li-tab span i {
 	vertical-align: middle;
 	padding-left: 4px;
 	color: #323232;
 }
-.reg-con .list-reg .li-tab span i a {
+.main-con .list-reg .li-tab span i a {
 	font-weight: 700;
 	color: #d01212;
 }
-.reg-con .list-reg .li-tab span i a:hover {text-decoration: underline;}
-.reg-con .list-reg .li-btn .btn {
+.main-con .list-reg .li-tab span i a:hover {text-decoration: underline;}
+.main-con .list-reg .li-btn .btn {
     display: inline-block;
     width: 100%;
     height: 50px;
@@ -160,7 +160,7 @@ body {background-color: #ececec;}
     color: #fff;
     letter-spacing: 2px;
 }
-.reg-con .list-reg .li-btn .btn:hover {
+.main-con .list-reg .li-btn .btn:hover {
 	background-color: rgba(208, 18, 18, .8);
 }
 .reg-bot {
@@ -173,10 +173,10 @@ body {background-color: #ececec;}
 	margin-bottom: 90px;
 }
 /*提示信息*/
-.reg-con .list-reg li .msg {    
+.main-con .list-reg li .msg {    
     position: absolute;
     top: 50px;
     left: 3%;
 }
-.reg-con .list-reg li .msg.onError {color: #d01212;}
-.reg-con .list-reg li .msg.onSuccess {color: transparent;}
+.main-con .list-reg li .msg.onError {color: #d01212;}
+.main-con .list-reg li .msg.onSuccess {color: transparent;}

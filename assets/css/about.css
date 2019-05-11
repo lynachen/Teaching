@@ -86,3 +86,8 @@ body {background-color: #f4f4f4;}
 .item-con .img {
 	text-align: center;
 }
+.item-con .txt {
+	font-size: 14px;
+	text-indent: 2em;
+	line-height: 1.8;
+}
