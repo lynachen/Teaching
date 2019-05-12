@@ -11,6 +11,14 @@
 	    height: 200px;
 	}	
 }
+.swiper-pagination-bullet {
+	background: transparent;
+	border: 1px solid #fff;
+	opacity: 1;
+}
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+	background-color: #fff;
+}
 .main-bg .main-tlt {
 	text-align: center;
 	margin-top: 70px;
@@ -121,7 +129,7 @@
 	text-overflow: ellipsis;	
 }
 .list-course li:hover .course-txt .course-tlt,
-.list-course li:hover .course-txt .course-tlt a {color: #81bd05;}
+.list-course li:hover .course-txt .course-tlt a {color: #d01212;}
 .list-course li .course-txt .bc {
 	font-size: 14px;
 	margin-top: 10px;

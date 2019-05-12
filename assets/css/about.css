@@ -20,6 +20,7 @@ body {background-color: #f4f4f4;}
     padding: 20px 10px;
     margin: 0 24px;
     position: relative;
+    cursor: pointer;
 }
 .tab-nav li:after {
     content: " ";
@@ -83,8 +84,15 @@ body {background-color: #f4f4f4;}
 	-o-transform: translateY(-50%);
 	transform: translateY(-50%);	
 }
+.item-con {
+	margin-bottom: 30px;
+}
 .item-con .img {
 	text-align: center;
+	margin-bottom: 30px;
+}
+.item-con img {
+	max-width: 100%;
 }
 .item-con .txt {
 	font-size: 14px;
