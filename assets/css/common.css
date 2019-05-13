@@ -92,6 +92,7 @@ a,button,input,optgroup,select,textarea {
 /*去除系统默认appearance的样式,常用于IOS下移除原生样式*/
 input[type="submit"], input[type="reset"], input[type="button"],input[type="text"],input[type="password"],textarea, button { 
 	-webkit-appearance: none !important; 
+	font-family: "Microsoft YaHei",PingFangSC-Regular,Verdana,Arial,Helvetica,sans-serif,"宋体";
 }
 
 /*美化checkbox和radio*/
