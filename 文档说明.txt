@@ -1,4 +1,13 @@
-assets：css,js和图片文件
+assets：css，js和图片文件
+
 static：插件
+
 template：模板文件
-首页--webHome/index
+
+公共部分--Common/common
+首页--Index/index
+在线课堂--Online/online
+课堂详情--Details/details
+关于我们--About/about
+登录--Login/login
+注册--Register/register
