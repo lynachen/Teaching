@@ -199,6 +199,11 @@ label {margin-bottom: 0;font-weight: 500;}
 
 
 /*--------------------------------- 公共样式 ---------------------------------*/
+#header {
+    width: 100%;
+    overflow: hidden;
+    position: relative;	
+}
 .common-header {
 	width: 100%;
 }
