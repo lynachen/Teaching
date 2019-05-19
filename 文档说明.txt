@@ -4,7 +4,7 @@ static：插件
 
 template：模板文件
 
-公共部分--Common/common
+公共部分--Common/common(公共部分页头包括登录状态及未登录状态)
 首页--Index/index
 在线课堂--Online/online
 课堂详情--Details/details
