@@ -89,14 +89,19 @@ body {background-color: #f4f4f4;}
 	background-size: cover;
 	z-index: 1;
 }
-.main-lt .pause {
+.main-lt .play {
 	position: absolute;
-	right: 20px;
-	bottom: 14px;
-	width: 60px;
-	height: 52px;
-	background: url(../image/details/pause.png) no-repeat center;
+	width: 69px;
+	height: 69px;
+	background: url(../image/details/play.png) no-repeat center;
 	background-size: contain;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-o-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
 	z-index: 2;
 	cursor: pointer;
 }

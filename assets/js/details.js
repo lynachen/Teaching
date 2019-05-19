@@ -1,6 +1,6 @@
 $(function(){
 	//  点击播放视频
-	$('.main-lt .pause').on('click',function(){
+	$('.main-lt .play').on('click',function(){
 		$(this).hide()
 		$(this).siblings('.video-img').hide()
 		document.getElementById('playVideo').play()
