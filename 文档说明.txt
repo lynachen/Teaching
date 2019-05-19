@@ -12,3 +12,4 @@ template：模板文件
 登录--Login/login
 注册--Register/register
 充值--Recharge/recharge
+个人中心--Personal/personal

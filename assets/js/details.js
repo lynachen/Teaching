@@ -16,10 +16,16 @@ $(function(){
 			return false;
 		}
 	})
+	//  点击课程目录
+	$('.list-catalog li').on('click',function(){
+		$(this).addClass('on').siblings().removeClass('on')
+		$('.video-img').css('background-image','url( )')  //视频主图
+		$('#playVideo').attr('src',' ') //视频路径
+	})
 	//	课程介绍等目录切换
-    $(".tab-nav li").click(function(){
-        $(this).addClass("tab-active").siblings().removeClass("tab-active");
-        var i = $(".tab-nav li").index(this);
-        $(".tab-panel .tab-panel-item").eq(i).addClass("tab-active").siblings().removeClass("tab-active");
+    $('.tab-nav li').click(function(){
+        $(this).addClass('tab-active').siblings().removeClass('tab-active');
+        var i = $('.tab-nav li').index(this);
+        $('.tab-panel .tab-panel-item').eq(i).addClass('tab-active').siblings().removeClass('tab-active');
     });
 })
