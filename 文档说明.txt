@@ -11,3 +11,4 @@ template：模板文件
 关于我们--About/about
 登录--Login/login
 注册--Register/register
+充值--Recharge/recharge

@@ -1,4 +1,10 @@
 body {background-color: #f4f4f4;}
+.main-bg.bg1 {
+	background-color: #191919;
+}
+.main-bg.bg1 .main-con {
+	background-color: #2d2d2d;
+}
 .breadcrumb {
     padding: 0;
     margin: 14px 0;
@@ -6,39 +12,61 @@ body {background-color: #f4f4f4;}
     background-color: transparent;
     border-radius: 0;
     font-size: 14px;	
+    color: #999;
 }
 .breadcrumb>li+li:before {
-	color: #323232;
+	color: #999;
 	content: ">";
 }
 .breadcrumb>li a {
-	color: #323232;
+	color: #999;
 }
 .breadcrumb>li a:hover {
 	text-decoration: underline;
 }
 .breadcrumb>.active {
-	/*color: #323232;*/
+	color: #999;
 }
-/*标题*/
-.main-tlt {
+/*---- 标题 ----*/
+.main-top {
+    display: flex;
+    color: #aaa;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.main-top .tlt {
 	font-size: 20px;
-	color: #323232;
-	margin-bottom: 14px;
+	color: #fff;
+	margin-bottom: 12px;	
 }
+.main-top .day i {
+	color: #ff0f0f;
+	padding: 0 2px;
+}
+.main-top .btns {
+	text-align: right;
+	margin-bottom: 10px;
+}
+.main-top .btns a {
+    display: inline-block;
+    padding: 4% 8%;
+    background-color: #d01212;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #fff;
+}
+
 .course-main {
 	font-size: 0;
 	margin-bottom: 30px;
 }
 .course-main .course-main-left {
 	display: inline-block;
-	width: 62%;
-	margin-right: 3%;
+	width: 65%;
 	vertical-align: top;
 	font-size: 12px;
-	border: 1px solid #d9d9d9;
-    border-radius: 6px;
-    background-color: #fff;
     position: relative;
 }
 .course-main .course-main-right {
@@ -48,98 +76,73 @@ body {background-color: #f4f4f4;}
 	font-size: 12px;
 }
 .main-lt {
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%,-50%);
-    -moz-transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
-    -o-transform: translate(-50%,-50%);
-    transform: translate(-50%,-50%);
+   position: relative;
+   width: 100%;
+   height: 340px;
 }
-.main-lt img {
-	max-width: 100%;
+.main-lt .video-img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+	z-index: 1;
 }
-.main-rt .course-info,
-.main-rt .lecturer-info {
-	background-color: #fff;
-	border: 1px solid #d9d9d9;
-	border-radius: 6px;
+.main-lt .pause {
+	position: absolute;
+	right: 20px;
+	bottom: 14px;
+	width: 60px;
+	height: 52px;
+	background: url(../image/details/pause.png) no-repeat center;
+	background-size: contain;
+	z-index: 2;
+	cursor: pointer;
+}
+.main-lt .pause:hover {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,.1);
+}
+.main-lt video {
+	
+}
+.main-lb {
+	margin: 1% 4%;
+	color: #8f8f8f;
+}
+.main-lb span {
+	padding: 10px 0;
+	cursor: pointer;
+}
+.main-lb .s-tel {
+	display: inline-block;
+	background: url(../image/details/tel.png) no-repeat left center;
+	background-size: 14px 20px;
+	padding-left: 20.5px;
+	padding-right: 30px;
+}
+.main-lb .s-col {
+	display: inline-block;
+	background: url(../image/details/collect.png) no-repeat left center;
+	background-size: 20px 20px;
+	padding-left: 28px;
+	color: #e2c99a;
 }
 .main-rt .course-info {
-	padding: 20px 24px;
-	margin-bottom: 30px;
+	/*background-color: #fff;
+	border: 1px solid #d9d9d9;
+	border-radius: 6px;*/
 }
-.main-rt .course-info .price {
-	margin: 0 10px;
+.main-rt .course-info .con {
+	padding: 20px;	
+	background-color: #333;
 }
-.main-rt .course-info .price span {
-	font-size: 14px;
-	color: #d01212;
+.main-rt .course-info .con .name span {
 	vertical-align: middle;
-}
-.main-rt .course-info .price span i {
-	font-size: 20px;
-}
-.main-rt .course-info .price .discount {
-	display: inline-block;
-	font-size: 12px;
-	padding: 4px 6px;
-	background-color: #d01212;
-	color: #fff;
-	margin-left: 6px;
-}
-.main-rt .course-info .tlt {
-    font-size: 16px;
-    color: #323232;
-    margin: 12px 10px;
-}
-.main-rt .course-info .num {
-    font-size: 16px;
-    color: #8f8f8f;
-    line-height: 2;
-    background-repeat: no-repeat;
-    padding-left: 24px;
-    margin: 0 10px;
-}
-.main-rt .course-info .num.num1 {
-	background-image: url(../../assets/image/details/num.png);
-	background-position: 0 -28%;
-	background-size: 18px;
-}
-.main-rt .course-info .num.num2 {
-	background-image: url(../../assets/image/details/num.png);
-	background-position: 0 134%;
-	background-size: 17px;
-}
-.main-rt .course-info .btns a {
-    display: inline-block;
-    width: 100%;
-    padding: 10px 0;
     font-size: 16px;
     color: #fff;
-    text-align: center;
-    background-color: #d01212;
-    border-radius: 6px;
-    margin-top: 10px;
 }
-
-.main-rt .lecturer-info .tlt {
-    font-size: 16px;
-    color: #000;
-    padding: 8px 12px;
-    border-bottom: 1px solid #ececec;
-}
-.main-rt .lecturer-info .con {
-	padding: 20px;
-}
-.main-rt .lecturer-info .con .name span {
-vertical-align: middle;
-    font-size: 16px;
-    color: #000;
-}
-.main-rt .lecturer-info .con .name .portrait {
+.main-rt .course-info .con .name .portrait {
 	display: inline-block;
 	width: 64px;
 	height: 64px;
@@ -148,10 +151,22 @@ vertical-align: middle;
 	background-size: contain;
 	margin-right: 8px;
 }
-.main-rt .lecturer-info .con .intro {
-	font-size: 14px;
-	color: #000;
-	margin-top: 10px;
+/*课程目录*/
+.main-rt .course-info .catalog .tlt {
+    font-size: 16px;
+    color: #fff;
+    padding: 4% 6%;
+    border-bottom: 1px solid #3f3f3f;
+}
+.list-catalog li {
+	padding: 3% 6%;
+	border-bottom: 1px solid #3f3f3f;
+}
+.list-catalog li a {
+	color: #fff;
+}
+.list-catalog li.on a {
+	color: #e2c99a;
 }
 /*课程详情*/
 .course-detail .tab-nav {

@@ -1,0 +1,134 @@
+body {background-color: #f4f4f4;}
+.none {display: none;}
+.user-con {
+	font-size: 14px;
+	color: #323232;
+	margin: 10px 0;
+}
+.user-con img {
+	max-width: 32px;
+	margin-right: 4px;
+}
+/*会员类型选择*/
+.member-type,
+.recharge-type {
+    background-color: #fff;
+    margin: 20px 2%;
+    padding: 0 2% 2%;
+}
+.member-tlt {
+	padding: 2%;
+	font-size: 20px;
+	color: #323232;
+}
+.member-type .list-type li {
+	float: left;
+	width: 32%;
+	padding: 0 2%;
+	border: 1px solid #ddd;
+	text-align: center;
+	cursor: pointer;
+}
+.member-type .list-type li:hover {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,.1);
+}
+.member-type .list-type li.on {
+	border-color: #d01212;
+	background: url(../image/recharge/checked.png) no-repeat right bottom;
+	background-size: 40px;
+}
+.member-type .list-type li:nth-child(2){
+	margin-left: 2%;
+	margin-right: 2%;
+}
+.member-type .list-type li .tlt {
+    font-size: 22px;
+    font-weight: 700;
+    color: #ccb374;
+    padding: 6% 0;
+    border-bottom: 1px solid #ececec;
+}
+.member-type .list-type li .price {
+    font-size: 24px;
+    color: #d01212;
+    padding: 10% 0;
+}
+.member-type .list-type li .price i {
+	font-size: 28px;
+}
+.member-type .list-type li .intro {
+	font-size: 18px;
+	color: #8f8f8f;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	padding-bottom: 10%;
+}
+/*充值方式*/
+.recharge-type .recharge-tlt {
+	float: left;
+	font-size: 14px;
+	color: #323232;
+	padding: 2% 0;
+}
+.recharge-type .recharge-sum {
+	padding: 2%;
+	text-align: center;
+	font-size: 14px;
+}
+.recharge-type .recharge-sum span {
+	margin-right: 14px;
+}
+.recharge-type .recharge-sum span b {
+	font-weight: 700;
+	color: #d01212;
+	padding: 0 2px;
+}
+.recharge-type .list-type {
+	text-align: center;
+	margin-top: 2%;
+}
+.recharge-type .list-type li {		
+	vertical-align: top;
+}
+.recharge-type .list-type li.li-wx {
+	margin-right: 12%;
+}
+.recharge-type .list-type li .top {
+	width: 200px;
+	height: 200px;
+	position: relative;
+}
+.recharge-type .list-type li.li-wx .top {
+	border: 1px solid #00b700;	
+}
+.recharge-type .list-type li.li-ali .top {
+	border: 1px solid #009fe8;
+}
+.recharge-type .list-type li .top img {
+	max-width: 90%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-o-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+}
+.recharge-type .list-type li.li-wx .bot {
+	font-size: 14px;
+	color: #8f8f8f;
+	margin-top: 6%;
+}
+.recharge-type .list-type li.li-wx .bot img {
+	width: 30px;
+}
+.recharge-type .list-type li.li-ali .bot {
+	width: 100%;
+	padding: 4% 0;
+	background-color: #009fe8;
+	font-size: 16px;
+	color: #fff;	
+	margin-top: 2%;
+}
